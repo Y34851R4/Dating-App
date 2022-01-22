@@ -1,0 +1,110 @@
+body {
+	background: url("bg1.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#top_div 
+{
+	background: rgba(100,0,0,0.7);
+	position: absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	border-radius: 0px 5px 10px 10px;
+}
+#login_bt
+{
+	background:black;
+	width:10%;
+	border-style: solid;
+	border-color: black;
+	color:pink;
+	border-radius: 10px 10px;
+	width:25%;
+	padding:10px;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+#login_bt:hover
+{
+	background: pink;
+	color:black;
+	opacity: 0.9;
+}
+.ins
+{
+	padding:10px;
+	color:maroon;
+	background: pink;
+	border-color:lightgray;
+	width:90%;
+	border-radius: 8px 8px;
+	transition: all 0.3s;
+}
+.ins:hover
+{
+	border-style: solid;
+	border-color: black;
+	opacity:1;
+}
+#input_div
+{
+	position:relative;
+	text-align: left;
+	display: inline-block;
+	width:50%;
+}
+#form_div
+{
+	text-align: center;
+	border-radius: 10px 10px;
+	width:40%;
+	padding-bottom: 2%;
+	background: maroon;
+	position: absolute;
+	display: inline-block;
+	top:38%;
+	left:30%;
+	opacity: 0.65;
+}
+#links_div
+{
+	position: absolute;
+	top:80%;
+	left:30%;
+}
+#base_links
+{
+	position: absolute;
+	right:0;
+	top:70%;
+}
+#base_links > a
+{
+	color:white;
+	background: linear-gradient(top,maroon,rgba(255,80,80,0.5));
+	background: -moz-linear-gradient(top,maroon,rgba(255,80,80,0.5));
+	background: -o-linear-gradient(top,maroon,rgba(255,80,80,0.5));
+	background: -webkit-linear-gradient(top,maroon,rgba(255,80,80,0.5));
+	background: -ms-linear-gradient(top,maroon,rgba(255,80,80,0.5));
+	padding:10px;
+	padding-left:28px;
+	padding-right:27px;
+	text-decoration: none;
+}
+#base_links>a:hover
+{
+	background: linear-gradient(top,maroon,red);
+	background: -moz-linear-gradient(top,maroon,red);
+	background: -o-linear-gradient(top,maroon,red);
+	background: -webkit-linear-gradient(top,maroon,red);
+	background: -ms-linear-gradient(top,maroon,red);
+}
+.asdfa
+{
+	color:maroon;
+}
+.asdfa:hover
+{
+	color:blue;
+}

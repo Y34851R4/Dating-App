@@ -1,0 +1,16 @@
+@media(max-width:692px) {
+
+.maincont > .rightcont {
+	width: 100%;
+}
+.maincont > .midcont {
+	width: 100%;
+}
+.maincont > .midcont > div {
+	margin: 15px;
+}
+.albcont span {
+	display: block;
+	width: 100%;
+}
+}

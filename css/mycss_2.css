@@ -1,0 +1,48 @@
+.sugi
+{
+	border:0.5px solid white;
+	height: 500px;
+	width:30%;
+	margin-right: 10px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+#profile
+{
+	margin-top: 50px;
+	border-radius: 100px;
+	display: inline-block;
+	width:100px;
+	height:100px;
+	padding: 0;
+	border: 1px solid grey;
+	overflow:hidden;
+}
+#Yeabsiras a
+{
+	text-decoration: none;
+	color:black;
+}
+.links
+{
+	background:-webkit-linear-gradient(left,rgba(128,0,0,0.02),rgb(128,0,0,0.8));
+	padding-top: 30px;
+	margin-left:30%;
+	height:100%;
+}
+.links span {
+	display: block;
+	padding: 10px;
+	color: #ddd;
+	text-shadow: 4px 4px 2px #000;
+}
+#Yeabsiras
+{
+	max-width: 100%;
+	position: relative;
+	overflow-x:auto;
+	overflow-y:hidden;	
+	white-space: nowrap;
+	display: block;
+}
